@@ -1,0 +1,11 @@
+﻿body{
+	font-size:12px;
+}
+li{
+ list-style: none;
+ display:inline;
+}
+
+.content{
+	height: 500px;
+}

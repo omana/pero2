@@ -1,0 +1,450 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+
+
+}
+
+body{
+	font-size: small;
+	font-family: "ヒラギノ明朝 Pro W3", "MS P明朝", メイリオ, Meiryo, Verdana, Grande, Arial, 'Hiragino Kaku Gothic Pro', 'MS P Gothic', sans-serif;
+	background-color: #ffffff;
+	color: #333;
+}
+h2{
+	font-size:15px;
+}
+
+h3{
+	font-size:14px;
+
+}
+
+p{
+	font-size:10px;
+}
+
+a img{
+	border: none;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:link { color: #333; }
+a:visited { color: #EF75BC; }
+a:hover { color: #ff0000; }
+a:active { color: #ff8000; }
+
+
+#wrapper{
+	min-width: 960px;
+	margin: 0 auto;
+}
+header{
+
+
+}
+#inner_header{
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+#logo{
+	width: 107px;
+	height: 37px;
+}
+
+
+.search_text{
+	height: 20px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.search_text:hover,
+.search_text:focus{
+    border-color: #EF75BC;
+    -webkit-box-shadow: 0px 0px 6px rgba(255,15,135,.7);
+    -moz-box-shadow: 0px 0px 6px rgba(255,15,135,.7);
+    box-shadow: 0px 0px 6px rgba(255,15,135,.7);
+
+}
+
+.search_btr{
+	background-color: #EF75BC;
+	border-color: #EF75BC;
+	color: #ffffff;
+	width: 50px;
+	height: 25px;
+	font-weight: bold;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+
+}
+
+.search_btr:hover{
+	background-color: #ffffff;
+	border-color: #EF75BC;
+	color: #EF75BC;
+	width: 50px;
+	height: 25px;
+	font-weight: bold;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+
+}
+
+
+
+#tagline{
+	float: right;
+	font-size: 10px;
+}
+
+nav{
+	background-color: #f1f1f1;
+
+}
+
+#inner_nav{
+	width: 960px;
+	margin: 0 auto;
+	font-size: 14px;
+
+}
+
+nav{
+	height:30px;
+}
+nav li{
+	display: inline;
+	text-align: center;
+}
+
+nav a{
+	padding-left: 3px;
+	padding-right: 5px;
+}
+
+#naviDiv{
+	float:left;
+	padding-top:5px;
+
+}
+
+#searchDiv{
+	float:right;
+	padding-top: 3px;
+}
+#contentLeft{
+	float: left;
+	width:180px;
+	margin-right: 10px;
+}
+
+#searchBox{
+	width:180px;
+	border: 1px #CCC solid;
+}
+
+#searchBox a{
+	color: #333;
+}
+
+#search_bar{
+	background-color:#f1f1f1;
+	height: 30px;
+}
+
+
+
+#searchBox li{
+	list-style:none;
+
+}
+
+#selectBox{
+	margin-top: 10px;
+	border: 1px #CCC solid;
+	width:180px;
+	height: 400px;
+
+}
+
+#select_bar{
+	background-color:#f1f1f1;
+	height: 30px;
+}
+
+#searchButton{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+
+
+#selectBoxContent{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#selectBoxContent li input{
+display: none;
+}
+
+
+#selectBoxContent li{
+	list-style: none;
+	display:inline;
+	margin-right: 5px;
+}
+
+.selectTypeLabel{
+	cursor: pointer;
+}
+
+.selectConditionLabel{
+	cursor: pointer;
+}
+
+.selectVolumeLabel{
+	cursor: pointer;
+}
+
+.selectThicknessLabel{
+	cursor: pointer;
+}
+
+.selectFaceType{
+	cursor: pointer;
+}
+
+#womenHairGenre li{
+	border-bottom: 1px dotted #ccc;
+	height: 20px;
+}
+
+
+#menHairGenre li{
+	border-bottom: 1px dotted #ccc;
+	height: 20px;
+}
+
+article{
+	overflow: hidden;
+
+}
+
+#inner_content{
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+#main{
+	width: 760px;
+	float: left;
+
+}
+
+#main_bar{
+	border-bottom: 1px solid #ccc;
+	color: #333;
+	height: 24px;
+	font-weight: normal;
+	margin-top: 5px;
+}
+
+.hairContents{
+	border: 1px #CCC solid;
+	width:200px;
+	height:250px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	cursor: pointer;
+
+}
+
+.Names{
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 140px;
+	font-size: 12px;
+}
+
+.hairImages{
+	margin-left: 10px;
+	margin-top:10px;
+}
+.hairImages img{
+	border: 5px solid #f0f0f0;
+}
+
+.hairGenre{
+	background-color:#EF75BC;
+	color: #ffffff;
+	width: 50px;
+	text-align: center;
+	float: left;
+
+}
+.hairColor{
+	color: #333;
+	text-align: right;
+	margin-right: 10px;
+	overflow:hidden;
+}
+
+.hairInfo{
+	margin-left: 10px;
+}
+
+.hairMarkUp{
+	margin-right: 10px;
+	text-align: right;
+
+}
+
+.amountOfAccess{
+
+}
+
+.updateDay{
+
+}
+
+.pageController{
+	clear:both;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.pageController a{
+	padding-right: 3px;
+}
+
+#secondArea{
+	float:right;
+	width: 240px;
+}
+
+#favorite{
+	width: 240px;
+	border: 1px #ccc solid;
+	height: 400px;
+	margin-bottom: 10px;
+
+}
+
+#favoriteBar{
+	width: 240px;
+	background-color: #333;
+	height:30px;
+	color:#ffffff;
+
+}
+#path_list{
+	font-size: 12px;
+}
+
+#topDiv{
+	float:right;
+}
+
+#favoriteContents{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#favoriteContents li{
+	list-style:none;
+
+}
+
+#favoriteFooter ul{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+
+#favoriteFooter li{
+	list-style:none;
+	display:inline;
+}
+
+
+footer{
+	min-width: 960px;
+	background-color: #f1f1f1;
+
+}
+
+#inner_footer{
+	width: 960px;
+	height: 90px;
+	margin: 0 auto;
+	padding-top: 5px;
+	font-size:14px;
+}
+
+.footerList{
+	float: left;
+	padding-left: 70px;
+	padding-right: 70px;
+	border-right: 1px solid #6A6B70;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#footerLeftList{
+	float: left;
+	padding-left: 70px;
+	padding-right: 70px;
+	border-left: 1px solid #6A6B70;
+	border-right: 1px solid #6A6B70;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.footerDeco{
+	font-color: #333;
+	border-bottom: 1px solid #333;
+
+}
+
+footer li{
+ list-style: none;
+ font-size: 12px;
+}
+
+footer #bottom{
+	text-align: center;
+	padding: 10px;
+	clear: both;
+	font-size:12px;
+	color: #ffffff;
+	background-color: #333;
+
+}
+
+address{
+	font-style: normal;
+}
+

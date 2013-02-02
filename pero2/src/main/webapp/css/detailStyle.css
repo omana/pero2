@@ -1,0 +1,135 @@
+
+#detailPhotoList ul{
+	list-style-type: none;
+	
+}
+
+#detailPhotoList li{
+	margin-top: 5px;
+}
+
+.detailmovieContents{
+	width: 960px;
+	overflow:hidden;
+
+}
+
+#moviePhotoList{
+	width:380px;
+	float:left;
+
+}
+
+#topDetailPhoto{
+	float: left;
+}
+
+
+#moviestyleInfo{
+	width:200px;
+
+}
+
+#addFavorite{
+	clear:both;
+	margin-left:100px;
+	margin-bottom: 10px;
+}
+
+#secoundLayer{
+	border-top: 1px #CCC solid;
+	clear:both;
+	overflow: hidden;
+}
+
+#salonInfo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 400px;
+	height: 200px;
+	border-right: #ccc dotted 1px;
+	overflow: hidden;
+	float:left;
+}
+
+#stylistPhoto{
+	float:left;
+}
+
+#stylistPhoto p{
+	padding-top: 30px;
+}
+
+#salonComment{
+	font-size: 12px;
+	margin-top:50px;
+}
+
+#detailInfo{
+	float:right;
+	width: 540px;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+#detailInfo li{
+	list-style: none;
+}
+
+
+#toBeauty{
+	margin-top:40px;
+}
+
+#similarStyle{
+	clear:both;
+	margin-bottom: 10px;
+	border: 1px #CCC solid;
+
+}
+
+#similarStyle ul{
+	list-style-type: none;
+	margin-left : auto ;
+	margin-right : auto ;
+}
+
+#similarStyle li{
+	display: inline;
+	margin-left: 10px;
+	
+}
+
+#similarStyle h2{
+	margin: 0px;
+}
+
+#similarPhoto{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.infoList{
+	width: 300px;
+    margin-top:10px;
+}
+
+dl.infoList {  
+    overflow: hidden;  
+    zoom: 1;  
+}  
+dl.infoList dt {  
+   width: 100px;
+    float: left;  
+    clear: both;  
+    font-weight: bold;
+    color: #EF75BC;
+  
+}  
+dl.infoList dd {  
+    padding: 0 0 5 120px; 
+	border-bottom: 1px dotted #ccc;   
+}  
+

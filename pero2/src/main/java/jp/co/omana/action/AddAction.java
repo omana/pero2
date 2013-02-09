@@ -48,6 +48,7 @@ public class AddAction {
 
 	public List<MovieInfo> movieInfoList = new ArrayList<MovieInfo>();
 	public List<MovieSeries> movieSerieList = new ArrayList<MovieSeries>();
+
 	public List<MovieInfo> mMeaningMovieInfoList = new ArrayList<MovieInfo>();
 
 

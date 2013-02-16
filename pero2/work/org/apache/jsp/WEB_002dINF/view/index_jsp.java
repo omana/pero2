@@ -282,19 +282,19 @@ static {
       out.write("\t\t\t\t\t<h3><span class=\"footerDeco\">○○について</span></h3>\r\n");
       out.write("\t\t\t\t\t<ul>\r\n");
       out.write("\t\t\t\t\t<p>\r\n");
-      out.write("\t\t\t\t\t\t<li>・");
+      out.write("\t\t\t\t\t\t<li>");
       if (_jspx_meth_s_005flink_005f18(_jspx_page_context))
         return;
       out.write("</li>\r\n");
-      out.write("\t\t\t\t\t\t<li>・");
+      out.write("\t\t\t\t\t\t<li>");
       if (_jspx_meth_s_005flink_005f19(_jspx_page_context))
         return;
       out.write("</li>\r\n");
-      out.write("\t\t\t\t\t\t<li>・");
+      out.write("\t\t\t\t\t\t<li>");
       if (_jspx_meth_s_005flink_005f20(_jspx_page_context))
         return;
       out.write("</li>\r\n");
-      out.write("\t\t\t\t\t\t<li>・");
+      out.write("\t\t\t\t\t\t<li>");
       if (_jspx_meth_s_005flink_005f21(_jspx_page_context))
         return;
       out.write("</li>\r\n");
@@ -1483,7 +1483,7 @@ static {
     org.seasar.struts.taglib.S2LinkTag _jspx_th_s_005flink_005f18 = (org.seasar.struts.taglib.S2LinkTag) _005fjspx_005ftagPool_005fs_005flink_0026_005fhref.get(org.seasar.struts.taglib.S2LinkTag.class);
     _jspx_th_s_005flink_005f18.setPageContext(_jspx_page_context);
     _jspx_th_s_005flink_005f18.setParent(null);
-    // /WEB-INF/view/index.jsp(206,11) name = href type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/index.jsp(206,10) name = href type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_s_005flink_005f18.setHref("./");
     int _jspx_eval_s_005flink_005f18 = _jspx_th_s_005flink_005f18.doStartTag();
     if (_jspx_eval_s_005flink_005f18 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
@@ -1518,7 +1518,7 @@ static {
     org.seasar.struts.taglib.S2LinkTag _jspx_th_s_005flink_005f19 = (org.seasar.struts.taglib.S2LinkTag) _005fjspx_005ftagPool_005fs_005flink_0026_005fhref.get(org.seasar.struts.taglib.S2LinkTag.class);
     _jspx_th_s_005flink_005f19.setPageContext(_jspx_page_context);
     _jspx_th_s_005flink_005f19.setParent(null);
-    // /WEB-INF/view/index.jsp(207,11) name = href type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/index.jsp(207,10) name = href type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_s_005flink_005f19.setHref("./");
     int _jspx_eval_s_005flink_005f19 = _jspx_th_s_005flink_005f19.doStartTag();
     if (_jspx_eval_s_005flink_005f19 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
@@ -1553,7 +1553,7 @@ static {
     org.seasar.struts.taglib.S2LinkTag _jspx_th_s_005flink_005f20 = (org.seasar.struts.taglib.S2LinkTag) _005fjspx_005ftagPool_005fs_005flink_0026_005fhref.get(org.seasar.struts.taglib.S2LinkTag.class);
     _jspx_th_s_005flink_005f20.setPageContext(_jspx_page_context);
     _jspx_th_s_005flink_005f20.setParent(null);
-    // /WEB-INF/view/index.jsp(208,11) name = href type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/index.jsp(208,10) name = href type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_s_005flink_005f20.setHref("./");
     int _jspx_eval_s_005flink_005f20 = _jspx_th_s_005flink_005f20.doStartTag();
     if (_jspx_eval_s_005flink_005f20 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
@@ -1588,7 +1588,7 @@ static {
     org.seasar.struts.taglib.S2LinkTag _jspx_th_s_005flink_005f21 = (org.seasar.struts.taglib.S2LinkTag) _005fjspx_005ftagPool_005fs_005flink_0026_005fhref.get(org.seasar.struts.taglib.S2LinkTag.class);
     _jspx_th_s_005flink_005f21.setPageContext(_jspx_page_context);
     _jspx_th_s_005flink_005f21.setParent(null);
-    // /WEB-INF/view/index.jsp(209,11) name = href type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    // /WEB-INF/view/index.jsp(209,10) name = href type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_s_005flink_005f21.setHref("./");
     int _jspx_eval_s_005flink_005f21 = _jspx_th_s_005flink_005f21.doStartTag();
     if (_jspx_eval_s_005flink_005f21 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
